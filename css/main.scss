@@ -1,0 +1,64 @@
+﻿@font-face {
+  font-family: 'source_sans_probold';
+  src: url("../fonts/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; 
+
+}
+
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; 
+
+}
+
+
+//variables
+$sourcesans: 'source_sans_proregular';
+
+
+
+#wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  overflow-x: hidden;
+
+  position:fixed;
+}
+
+.logo {
+    width: 100%;
+    
+
+    .main {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.welcome {
+    text-align: center;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+h2 {
+    position: relative;
+    top: -500px;
+    opacity: 0;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
